@@ -1,0 +1,32 @@
+{
+  "name": "twilioforwarder",
+  "version": "1.0.0",
+  "description": "forwards twilio to slack",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexchia/TwilioForwarder.git"
+  },
+  "keywords": [
+    "twilio",
+    "forward",
+    "slack",
+    "text",
+    "sms"
+  ],
+  "author": "Alexander Chia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexchia/TwilioForwarder/issues"
+  },
+  "homepage": "https://github.com/alexchia/TwilioForwarder#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "request": "^2.67.0",
+    "xml": "^1.0.0"
+  }
+}
